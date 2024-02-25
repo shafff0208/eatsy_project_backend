@@ -1,0 +1,16 @@
+@RELATION lunch_unknowntest
+
+@ATTRIBUTE Age REAL
+@ATTRIBUTE Gender {Male, Female}
+@ATTRIBUTE Height REAL
+@ATTRIBUTE WeightGoal {"Weight Loss", "Weight Gain", "Maintain Weight"}
+@ATTRIBUTE CurrentWeight REAL
+@ATTRIBUTE TargetWeight REAL
+@ATTRIBUTE ActivityLevel {"No Exercise", "Light Exercise", "Moderate Exercise", "Hard Exercise", "Physical Job or Hard Exercise", "Professional Athlete"}
+@ATTRIBUTE WeightLossPace {Normal, Strict, N/A}
+@ATTRIBUTE WeightGainPace {Normal, Strict, N/A}
+@ATTRIBUTE DailyCalorieGoal REAL
+@ATTRIBUTE MealPackage {"Cottage Cheese and Veggie Bowl", "Lentil Salad", "Easy Chicken Salad", "Hummus and Turkey Wrap"}
+
+@DATA
+34,Male,160,"Maintain Weight",73,73,"Professional Athlete",N/A,N/A,1664,?

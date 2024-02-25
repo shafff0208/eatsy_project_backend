@@ -1,0 +1,16 @@
+@RELATION breakfast_unknowntest
+
+@ATTRIBUTE Age REAL
+@ATTRIBUTE Gender {Male, Female}
+@ATTRIBUTE Height REAL
+@ATTRIBUTE WeightGoal {"Weight Loss", "Weight Gain", "Maintain Weight"}
+@ATTRIBUTE CurrentWeight REAL
+@ATTRIBUTE TargetWeight REAL
+@ATTRIBUTE ActivityLevel {"No Exercise", "Light Exercise", "Moderate Exercise", "Hard Exercise", "Physical Job or Hard Exercise", "Professional Athlete"}
+@ATTRIBUTE WeightLossPace {Normal, Strict, N/A}
+@ATTRIBUTE WeightGainPace {Normal, Strict, N/A}
+@ATTRIBUTE DailyCalorieGoal REAL
+@ATTRIBUTE MealPackage {"Yogurt Parfait", "Peanut Butter Banana Toast", "Scrambled Eggs with Spinach", "Breakfast Burrito"}
+
+@DATA
+20,Male,188,"Weight Gain",67,67,"Light Exercise",N/A,Strict,2703,?

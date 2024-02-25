@@ -1,0 +1,16 @@
+@RELATION dinner_unknowntest
+
+@ATTRIBUTE Age REAL
+@ATTRIBUTE Gender {Male, Female}
+@ATTRIBUTE Height REAL
+@ATTRIBUTE WeightGoal {"Weight Loss", "Weight Gain", "Maintain Weight"}
+@ATTRIBUTE CurrentWeight REAL
+@ATTRIBUTE TargetWeight REAL
+@ATTRIBUTE ActivityLevel {"No Exercise", "Light Exercise", "Moderate Exercise", "Hard Exercise", "Physical Job or Hard Exercise", "Professional Athlete"}
+@ATTRIBUTE WeightLossPace {Normal, Strict, N/A}
+@ATTRIBUTE WeightGainPace {Normal, Strict, N/A}
+@ATTRIBUTE DailyCalorieGoal REAL
+@ATTRIBUTE MealPackage {"Broccoli and Chickpea Stir-Fry", "Grilled Chicken with Roasted Vegetables", "Quinoa and Black Bean Bowl", "Salmon with Sweet Potato and Asparagus"}
+
+@DATA
+21,Female,187,"Maintain Weight",62,62,"Light Exercise",N/A,N/A,2481,?
